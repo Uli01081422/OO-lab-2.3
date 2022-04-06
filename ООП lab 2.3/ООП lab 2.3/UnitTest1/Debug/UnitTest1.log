@@ -1,0 +1,7 @@
+﻿  pch.cpp
+  UnitTest1.cpp
+     Creating library C:\Users\Admin\Desktop\ООП lab 2.3\ООП lab 2.3\Debug\UnitTest1.lib and object C:\Users\Admin\Desktop\ООП lab 2.3\ООП lab 2.3\Debug\UnitTest1.exp
+UnitTest1.obj : error LNK2019: unresolved external symbol "public: __thiscall FuzzyNumber::FuzzyNumber(double,double,double)" (??0FuzzyNumber@@QAE@NNN@Z) referenced in function "public: void __thiscall UnitTest1::UnitTest1::TestMethod1(void)" (?TestMethod1@UnitTest1@1@QAEXXZ)
+UnitTest1.obj : error LNK2019: unresolved external symbol "public: class FuzzyNumber & __thiscall FuzzyNumber::operator=(class FuzzyNumber const &)" (??4FuzzyNumber@@QAEAAV0@ABV0@@Z) referenced in function "public: void __thiscall UnitTest1::UnitTest1::TestMethod1(void)" (?TestMethod1@UnitTest1@1@QAEXXZ)
+UnitTest1.obj : error LNK2019: unresolved external symbol "class FuzzyNumber __cdecl operator-(class FuzzyNumber,class FuzzyNumber)" (??G@YA?AVFuzzyNumber@@V0@0@Z) referenced in function "public: void __thiscall UnitTest1::UnitTest1::TestMethod1(void)" (?TestMethod1@UnitTest1@1@QAEXXZ)
+C:\Users\Admin\Desktop\ООП lab 2.3\ООП lab 2.3\Debug\UnitTest1.dll : fatal error LNK1120: 3 unresolved externals
